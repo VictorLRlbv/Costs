@@ -1,7 +1,7 @@
 import { ChangeEvent, useEffect, useState } from "react";
 import Button from "../../../layout/ButtonPurple/button";
-import Input from "../../../layout/InputForm.scss/input";
-import Select from "../../../layout/InputForm.scss/select";
+import Input from "../../../layout/InputForm/input";
+import Select from "../../../layout/Select/select";
 import './projectForm.scss'
 
 export default function ProjectForm({handleSubmit, projectData, btnText}: {handleSubmit: any, projectData: any, btnText: string}) {

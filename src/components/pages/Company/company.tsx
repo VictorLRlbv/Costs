@@ -1,5 +1,5 @@
 import Container from "../../layout/Container/container";
-import Card from "../../layout/EnterpriseCard/Card";
+import Card from "../../layout/Card/Card";
 import MenuAccordion from "./AccordionMenu/menuAccordion";
 import CompanyDescription from "./CompanyDesciption/companyDesciption";
 
