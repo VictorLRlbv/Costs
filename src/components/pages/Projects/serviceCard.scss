@@ -1,0 +1,39 @@
+.service_card {
+    border-radius: 20px;
+    background-image: linear-gradient(135deg, rgb(89, 185, 217),purple);
+    padding: 1.5em;
+    .info_title {
+        background-color: #444;
+        color: white;
+        border-radius: 15px;
+        .info {
+            cursor: text;
+            p {
+                color: #7b7b7b;
+                span {
+                    color: white;
+                    font-weight: bold;
+                }
+                &:hover {
+                    color: white;
+                }
+                transition: all 0.2s;
+            }
+            .btn {
+                background-color: #7b7b7b;
+                color: white;
+                border-radius: 15px;
+                margin: 10px;
+                padding: 15px;
+                cursor: pointer;
+                span {
+                    margin-right: 10px;
+                }
+                &:hover {
+                    background-color: #5b5b5b;
+                }
+            }
+            
+        }
+    }
+}
