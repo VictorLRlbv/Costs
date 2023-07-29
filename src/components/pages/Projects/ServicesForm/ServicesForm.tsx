@@ -1,6 +1,6 @@
 import { FormEventHandler, useState } from "react";
 import Button from "../../../layout/ButtonPurple/button";
-import Input from "../../../layout/InputForm.scss/input";
+import Input from "../../../layout/InputForm/input";
 import "../ProjectForm/projectForm.scss";
 
 export default function ServiceForm({handleSubmit, btnText, projectData}: {handleSubmit: any, btnText: string, projectData: any}) {
