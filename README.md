@@ -44,3 +44,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Como instalar o projeto na sua máquina:
+
+### Use `npm -g install` e `npm install --save-dev json-server sass react-router-dom react-icons typescript-plugin-css-modules` para instalar todas as dependencias do projeto
+
+**Caso não funcione tente `npm install --save-dev @types/json-server sass react-router-dom react-icons typescript-plugin-css-modules` ou instalar as dependencias uma por uma com o @types/ antes do nome da dependencia...**
