@@ -1,0 +1,20 @@
+.inputContainer {
+    select {
+        margin: 30px 0;
+        cursor: pointer;
+        width: 90%;
+        height: 40px;
+        background-color: azure;
+        border-radius: 15px;
+        border: none;
+        transition: 0.1s;
+        &:focus-within {
+            border-radius: 0;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        &::content {
+            color: black;
+        }
+    }
+}
