@@ -1,0 +1,78 @@
+{
+  "projects": [
+    {
+      "name": "Scrum Mestre",
+      "budget": "8000",
+      "category": {
+        "id": "4",
+        "name": "Construção de equipe"
+      },
+      "cost": 6000,
+      "services": [
+        {
+          "name": "Contratação de um scrum master",
+          "cost": "3000",
+          "description": "só contrata o cara"
+        },
+        {
+          "name": "teste",
+          "cost": "3000",
+          "description": "só contrata o cara",
+          "id": "d276a094-9e99-40a3-a237-b484e93197cd"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Produção de papel",
+      "budget": "15000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "Contratação de um master",
+      "budget": "18000",
+      "category": {
+        "id": "4",
+        "name": "Construção de equipe"
+      },
+      "cost": 2000,
+      "services": [
+        {
+          "name": "Produção de papel",
+          "cost": "2000",
+          "description": "só contrata o cara",
+          "id": "49bb097a-5e39-4b17-bbaf-424a121bf33b"
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Construção de equipe"
+    },
+    {
+      "id": 5,
+      "name": "Planejamento"
+    }
+  ]
+}
