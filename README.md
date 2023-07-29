@@ -50,3 +50,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ### Use `npm -g install` e `npm install --save-dev json-server sass react-router-dom react-icons typescript-plugin-css-modules` para instalar todas as dependencias do projeto
 
 **Caso não funcione tente `npm install --save-dev @types/json-server sass react-router-dom react-icons typescript-plugin-css-modules` ou instalar as dependencias uma por uma com o `@types/` antes do nome da dependencia...**
+
+### Para rodar a simulação do backend use `npm run backend` e para rodar a aplicação no navegador use `npm start`
