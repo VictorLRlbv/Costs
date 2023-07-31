@@ -1,0 +1,16 @@
+* {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html, body, #root {
+    scroll-padding: 350px;
+    background-color: #EFEFEF;
+    height: 100%;
+    position: relative;
+    scroll-behavior: smooth;
+}

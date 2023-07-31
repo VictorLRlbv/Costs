@@ -1,0 +1,13 @@
+.btn {
+    background-color: darkorange;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    transition: 0.2s;
+    &:hover {
+        scale: 1.1;
+        background-color: rgb(219, 126, 12);
+        color: azure;
+    }
+}

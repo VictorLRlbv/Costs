@@ -1,0 +1,50 @@
+.btnPurple {
+    margin: 10px 20px;
+    background: linear-gradient(135deg, rgb(89, 185, 217),purple);
+    border-radius: 30px;
+    padding: 20px 30px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.2s;
+    box-sizing: border-box;
+    cursor: pointer;
+    &:hover {
+        scale: 1.1;
+        border: 4px #dddddd solid;
+        animation: moveColors 1s linear;
+        transition: 0.2s;
+    }
+}
+@keyframes moveColors {
+    10% {
+        background: linear-gradient(135deg, rgb(131, 58, 131), rgb(89, 185, 217) ,rgb(41, 126, 155),  rgb(155, 61, 155),  rgb(131, 58, 131));
+    }
+    20% {
+        background: linear-gradient(135deg, rgb(131, 58, 131),  rgb(131, 58, 131), rgb(89, 185, 217) ,rgb(41, 126, 155),  rgb(155, 61, 155));
+    }
+    30% {
+        background: linear-gradient(135deg,rgb(155, 61, 155),  rgb(131, 58, 131) rgb(89, 185, 217),rgb(41, 126, 155));
+    }
+    40% {
+        background: linear-gradient(135deg,rgb(41, 126, 155), rgb(155, 61, 155),  rgb(131, 58, 131), rgb(89, 185, 217) );
+    }
+    50% {
+        background: linear-gradient(135deg, rgb(89, 185, 217), purple );
+    }
+    60% {
+        background: linear-gradient(135deg, rgb(131, 58, 131), rgb(89, 185, 217) ,rgb(41, 126, 155),  rgb(155, 61, 155),  rgb(131, 58, 131));
+    }
+    70% {
+        background: linear-gradient(135deg, rgb(131, 58, 131),  rgb(131, 58, 131), rgb(89, 185, 217) ,rgb(41, 126, 155),  rgb(155, 61, 155));
+    }
+    80% {
+        background: linear-gradient(135deg,rgb(155, 61, 155),  rgb(131, 58, 131) rgb(89, 185, 217),rgb(41, 126, 155));
+    }
+    90% {
+        background: linear-gradient(135deg,rgb(41, 126, 155), rgb(155, 61, 155),  rgb(131, 58, 131), rgb(89, 185, 217) );
+    }
+    100% {
+        background: linear-gradient(135deg, rgb(89, 185, 217), purple );
+    }
+}

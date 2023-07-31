@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 2rem;
+    .container {
+        margin-right: 0;
+    }
+    h1 {
+        font-size: 90px;
+        color: white;
+        vertical-align: top;
+        p {
+            display: inline-block;
+            text-decoration: none;
+        }
+        img {
+            display: inline-block;
+            height: 100px;
+            padding-top: 20px;
+        }
+    }
+    
+    .list {
+        align-items: center;
+        display: flex;
+        text-decoration: none;
+    }
+}
+
