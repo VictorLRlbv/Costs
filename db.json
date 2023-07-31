@@ -1,46 +1,15 @@
 {
   "projects": [
     {
-      "name": "Produção de papel",
-      "budget": "15000",
+      "name": "Filme do pinoquio",
+      "budget": "30000",
       "category": {
         "id": "3",
         "name": "Design"
       },
-      "cost": 2000,
-      "services": [
-        {
-          "name": "comprar os materiais",
-          "cost": "2000",
-          "description": "eu sei",
-          "id": "1e57e785-3051-43ed-b799-70514999b201"
-        }
-      ],
-      "id": 3
-    },
-    {
-      "name": "Contratção do tonin",
-      "budget": "80000",
-      "category": {
-        "id": "5",
-        "name": "Planejamento"
-      },
-      "cost": 42000,
-      "services": [
-        {
-          "name": "Produção de papel",
-          "cost": "2000",
-          "description": "só contrata o cara",
-          "id": "49bb097a-5e39-4b17-bbaf-424a121bf33b"
-        },
-        {
-          "name": "Contrata o bixo",
-          "cost": "40000",
-          "description": "sim",
-          "id": "452d14a5-9f16-427e-8466-143526474ceb"
-        }
-      ],
-      "id": 4
+      "cost": 0,
+      "services": [],
+      "id": 1
     }
   ],
   "categories": [
