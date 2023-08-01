@@ -1,0 +1,14 @@
+.container {
+    margin: 1em auto;
+    .descriptionContainer {
+        margin-top: 100px;
+        width: 50%;
+        text-align: center;
+        button {
+            margin-top: 30px;
+        }
+    }
+    .chatImage {
+        align-items: baseline;
+    }
+}
