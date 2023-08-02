@@ -6,7 +6,22 @@ import CompanyDescription from "./CompanyDesciption/companyDesciption";
 export default function Company() {
     return (
         <Container customClass="column">
-            <CompanyDescription />
+            <CompanyDescription className="descriptionContainer">
+            <h1>Gerenciamento de Projetos para o Sucesso Empresarial</h1>
+                <h2>
+                    Otimize seus Projetos e Impulsione Seus Resultados com Nossos Planos
+                    Personalizados
+                </h2>
+                <p>
+                    Alcance novos patamares de sucesso com nossos Planos de Gerenciamento de
+                    Projetos. Soluções personalizadas para atender às necessidades da sua
+                    empresa.
+                </p>
+                <p>
+                    Mais produtividade, menos estresse e satisfação do cliente atendido.
+                    Experimente agora e eleve o potencial do seu negócio!
+                </p>
+            </CompanyDescription>
             <Card url="https://wsltech.com.br/wp-content/uploads/2022/09/empresaria-no-cafe_1157-5421.jpg" fotoLeft={true} 
             text="Alavanque seu sucesso como desenvolvedor web independente! Nosso Plano de Gerenciamento de Projetos é perfeito para você. Organize tarefas, estime prazos e colabore facilmente. Menos estresse, mais eficiência"
             title="ElevateTech: Gerenciamento de Projetos para Desenvolvedores"

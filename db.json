@@ -10,6 +10,30 @@
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "Contratação de personal",
+      "budget": "30000",
+      "category": {
+        "id": "4",
+        "name": "Construção de equipe"
+      },
+      "cost": 6000,
+      "services": [
+        {
+          "name": "Contratar o Alan",
+          "cost": "3000",
+          "description": "só contrata o cara",
+          "id": "78c6a8c0-871b-4cac-ba5e-b1ea0af9f0ef"
+        },
+        {
+          "name": "Contratar o Tonin",
+          "cost": "3000",
+          "description": "só contrata o cara",
+          "id": "8249d4fc-ccbc-43a5-b31e-3f7ade5bcf11"
+        }
+      ],
+      "id": 2
     }
   ],
   "categories": [
