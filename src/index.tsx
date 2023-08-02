@@ -18,5 +18,5 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 
 // INSTALAÇÃO DO REACT-ROUTER
-// PASSO 1 : USAR O PACOTE DO NPM | npm install --save-dev react-router-dom
+// PASSO 1 : USAR O PACOTE DO NPM | npm install react-router-dom
 // PASSO 2 : IMPORTAR AS CONFIGURAÇÕES DO ROUTER (colocar o import no arquivo que engloba o app/index.tsx) | import {createBrowserRouter, RouterProvider} from 'react-router-dom'
