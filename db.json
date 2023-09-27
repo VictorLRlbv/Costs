@@ -28,6 +28,24 @@
         }
       ],
       "id": 2
+    },
+    {
+      "name": "Paulo",
+      "budget": "3000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 2000,
+      "services": [
+        {
+          "name": "Pentear o cabelo",
+          "cost": "2000",
+          "description": "Mto legal",
+          "id": "cd171858-4032-4be6-81e5-dce0439fad9b"
+        }
+      ],
+      "id": 3
     }
   ],
   "categories": [

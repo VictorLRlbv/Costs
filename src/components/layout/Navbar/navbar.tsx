@@ -12,6 +12,7 @@ export default function Navbar({imgSrc}: {imgSrc: string}) {
                     <li className='list-item'><Link to={'/contact'}><Button type='button' id='contactBtn' text='CONTATO'></Button></Link></li>
                     <li className='list-item'><Link to={'/projects'}><Button type='button' id='projectsBtn' text='PROJETOS'></Button></Link></li>
                     <li className='list-item'><Link to={'/company'}><Button type='button' id='companyBtn' text='PLANOS'></Button></Link></li>
+                    <li className='list-item'><Link to={'/chat'}><Button type='button' id='chatBtn' text='CHAT'></Button></Link></li>
                 </ul>
             </Container>
         </nav>

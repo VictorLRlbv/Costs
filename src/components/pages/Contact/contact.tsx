@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../../layout/ButtonPurple/button";
 import Container from "../../layout/Container/container";
 import CompanyDescription from "../Company/CompanyDesciption/companyDesciption";
@@ -11,7 +12,7 @@ export default function Contact() {
                     Converse conosco!
                 </h1>
                 <p>Use nosso chat interativo para falar com nossos funcionários, para te ajudarem pro que der e vier!</p>
-                <Button text="Vamos conversar!" type="button" id="btnLetsTalk"/>
+                <Link to='/chat'><Button text="Vamos conversar!" type="button" id="btnLetsTalk"/></Link>
             </CompanyDescription>
             <img src="https://www.pmvc.ba.gov.br/wp-content/uploads/telefone-pessoa-ligando.jpg" alt="FOto de uma pessoa atendendo um telefone" className="chatImage"/>
         </Container>

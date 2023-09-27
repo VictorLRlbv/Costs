@@ -1,0 +1,107 @@
+#chat {
+    display: flex;
+    flex-direction: column;
+    .mensagem {
+        align-self: flex-end;
+        background-color: rgb(41, 126, 155);
+        color: lightgray;
+        padding: 10px;
+        border-radius: 15px;
+        border-top-right-radius: 0px;
+        border: 5px solid gray;
+        width: 30%;
+        margin-left: 30px;
+
+    }
+    .mensagemResposta {
+        background-color: #333333;
+        color: lightgray;
+        padding: 10px;
+        border-radius: 15px;
+        border-top-left-radius: 0px;
+        border: 5px solid gray;
+        margin-right: 400px;
+        width: 50%;
+        margin-left: 30px;
+    }
+    .dataMensagem {
+        font-size: 13px;
+    }
+}
+.main-chat {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    min-height: 400px;
+    .campo-text {
+        width: 90%;
+        position: fixed;
+        bottom: 30px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        .text_field {
+            width: 80%;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            padding: 15px;
+        }
+        .container-send {
+            width: 20%;
+            cursor: pointer;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            background-color: lightgrey;
+            transition: 0.2s;
+            &:hover {
+                background-color: gray;
+            }
+            &:active {
+                background-color: #333333;
+                .aviaozinho-de-papel {
+                    color: white;
+                }
+            }
+            .aviaozinho-de-papel {
+                color: black;
+                margin: 10px 60px;
+            }
+        }
+    }
+    .campo-text_down {
+        width: 90%;
+        position: fixed;
+        bottom: 200px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        .text_field {
+            width: 80%;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            padding: 15px;
+        }
+        .container-send {
+            width: 20%;
+            cursor: pointer;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            background-color: lightgrey;
+            transition: 0.2s;
+            &:hover {
+                background-color: gray;
+            }
+            &:active {
+                background-color: #333333;
+                .aviaozinho-de-papel {
+                    color: white;
+                }
+            }
+            .aviaozinho-de-papel {
+                color: black;
+                margin: 10px 60px;
+            }
+        }
+    }  
+    
+}

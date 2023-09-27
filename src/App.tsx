@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './components/pages/Home/home';
 import Contact from './components/pages/Contact/contact';
 import NewProject from './components/pages/NewProject/newProject';
@@ -9,6 +9,7 @@ import Navbar from './components/layout/Navbar/navbar';
 import Footer from './components/layout/Footer/footer';
 import Projects from './components/pages/Projects/projects';
 import Project from './components/pages/Project/project';
+import Chat from './components/pages/Chat/Chat';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
               <Route path='/company' element={<Company />}></Route>
               <Route path='/projects' element={<Projects />}></Route>
               <Route path='/projects/:id' element={<Project />}></Route>
+              <Route path='/chat' element={<Chat/>}></Route>
             </Routes>
         </Container>
         <Footer />
